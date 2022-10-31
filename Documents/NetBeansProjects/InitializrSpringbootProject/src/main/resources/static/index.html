@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Data Input</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="text-align: center">
+        
+        <font size="10"><div>Login</div></font>
+        <hr/>
+        <form method="post" enctype="multipart/form-data" action ="/send">
+            <font size="5">Nama  : <input  type="text" name="inputnama"/></font><br>
+            <br>
+            <font size="5">Date : <input type="date" name="inputtanggal"/></font><br>
+            <br>
+            <font size="5">Picture : <input type="file" name="inputfoto" accept="image/png, image/jpeg" required=""/></font>
+            <br>
+            <br>
+            <input type="submit" value="Enter" style="background-color: yellow"/>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tampilan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="text-align: center">
+        
+        <font size="10"><div>Tampilan Hasil</div></font>
+        <hr/>
+        <font size="5">Nama :</font> <font size="5"><p th:text="${kirimannama}"></p></font>
+        <font size="5">Tanggal :</font> <font size="5"><p  th:text="${kirimantanggal}"></p></font>
+        <img th:src="${kirimangambar}" style="width:500px;height:500px;">
+    </body>
+</html>
